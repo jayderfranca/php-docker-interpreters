@@ -1,3 +1,5 @@
+all: php5 php7
+
 php7:
 	docker rmi php:7.4-cli || exit 0
 	docker build --no-cache --tag php:7.4-cli --file php7.4-cli.dockerfile .
