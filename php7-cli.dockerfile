@@ -1,5 +1,5 @@
-ARG PHP_7_BASE_IMAGE
-FROM php:${PHP_7_BASE_IMAGE}
+ARG PHP_7_TAG_BASE
+FROM php:${PHP_7_TAG_BASE}
 
 RUN cp "${PHP_INI_DIR}/php.ini-development" "${PHP_INI_DIR}/php.ini" \
  && apk --no-cache add pcre-dev ${PHPIZE_DEPS} \
