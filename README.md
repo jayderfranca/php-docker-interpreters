@@ -8,8 +8,8 @@ Com esta opção, não é necessário instalar fisicamente o interpretador na m�
 
 |Image gerada|Image base|Versão Xdebug|
 |-|-|-:|
-|php:5.6-cli|[php:5.6-cli-alpine](https://hub.docker.com/layers/php/library/php/5.6-cli-alpine/images/sha256-a59111883afcee359f1ad5b292a67f4437808d1167e5f5732ebcf6ef426e298a?context=explore)|2.5.5|
-|php:7.4-cli|[php:7.4-cli-alpine](https://hub.docker.com/layers/php/library/php/7.4-cli-alpine/images/sha256-cc9d43710ae41eaf879c7f7b6458f5a0988093602bb827cbf14fc2458d753ace?context=explore)|2.9.6|
+|php:5-cli|[php:5.6-cli-alpine](https://hub.docker.com/layers/php/library/php/5.6-cli-alpine/images/sha256-a59111883afcee359f1ad5b292a67f4437808d1167e5f5732ebcf6ef426e298a?context=explore)|2.5.5|
+|php:7-cli|[php:7.4-cli-alpine](https://hub.docker.com/layers/php/library/php/7.4-cli-alpine/images/sha256-cc9d43710ae41eaf879c7f7b6458f5a0988093602bb827cbf14fc2458d753ace?context=explore)|2.9.6|
 
 
 #### [Grade de compatibilidade](https://xdebug.org/docs/compat)
