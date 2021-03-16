@@ -4,7 +4,7 @@ PHP_5_XDEBUG_VER=2.5.5
 
 PHP_7_TAG=7-cli
 PHP_7_TAG_BASE=7.4-cli-alpine
-PHP_7_XDEBUG_VER=2.9.6
+PHP_7_XDEBUG_VER=3.0.3
 
 all: php5 php7
 
