@@ -8,8 +8,9 @@ Com esta opção, não é necessário instalar fisicamente o interpretador na m�
 
 |Image gerada|Image base|Versão Xdebug|
 |-|-|-:|
-|php:5-cli|[php:5.6-cli-alpine](https://hub.docker.com/layers/php/library/php/5.6-cli-alpine/images/sha256-5dd6b6ea600342303f987d33524c0fae0347ae13be6ae55691d4acb873c203ea?context=explore)|2.5.5|
-|php:7-cli|[php:7.4-cli-alpine](https://hub.docker.com/layers/php/library/php/7.4-cli-alpine/images/sha256-cc9d43710ae41eaf879c7f7b6458f5a0988093602bb827cbf14fc2458d753ace?context=explore)|3.0.3|
+|php:5-cli|[php:5.6-cli-alpine](https://github.com/docker-library/php/tree/783878384a8f3953ed571e5a34ba0fe546726c85/5.6/alpine3.8/cli)|2.5.5|
+|php:7-cli|[php:7.4-cli-alpine](https://github.com/docker-library/php/tree/1bc63c1ce4294a4ecb50c60dcf6a57d6749cba7d/7.4/alpine3.13/cli)|3.0.3|
+|php:8-cli|[php:8.0-cli-alpine](https://github.com/docker-library/php/tree/64811791f0682262478d73514819908fcfe73d7f/8.0/alpine3.13/cli)|3.0.3|
 
 #### Grade de compatibilidade
 <table>
@@ -30,10 +31,6 @@ Com esta opção, não é necessário instalar fisicamente o interpretador na m�
       <tr><th>PHP 7.1</th><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td></td><td></td><td></td></tr>
       <tr><th>PHP 7.0</th><td></td><td></td><td></td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td></td><td></td></tr>
       <tr><th>PHP 5.6</th><td></td><td></td><td></td><td></td><td></td><td>✔</td><td>✔</td><td>✔</td><td>✔</td></tr>
-      <tr><th>PHP 5.5</th><td></td><td></td><td></td><td></td><td></td><td>✔</td><td>✔</td><td>✔</td><td>✔</td></tr>
-      <tr><th>PHP 5.4</th><td></td><td></td><td></td><td></td><td></td><td></td><td>✔</td><td>✔</td><td>✔</td></tr>
-      <tr><th>PHP 5.3</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>✔</td></tr>
-      <tr><th>PHP 5.2</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>✔</td></tr>
    </tbody>
 </table>
 Fonte: https://xdebug.org/docs/compat
