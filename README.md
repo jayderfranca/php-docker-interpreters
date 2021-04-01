@@ -12,6 +12,18 @@ Com esta opção, não é necessário instalar fisicamente o interpretador na m�
 |php:7-cli|[php:7.4-cli-alpine](https://github.com/docker-library/php/tree/1bc63c1ce4294a4ecb50c60dcf6a57d6749cba7d/7.4/alpine3.13/cli)|3.0.3|
 |php:8-cli|[php:8.0-cli-alpine](https://github.com/docker-library/php/tree/64811791f0682262478d73514819908fcfe73d7f/8.0/alpine3.13/cli)|3.0.3|
 
+
+#### Cada imagem possui as seguintes ferramentas:
+
+Composer(https://getcomposer.org/): /usr/local/bin/composer
+
+Test Frameworks:
+   * PHPUnit(https://phpunit.de/): /usr/local/bin/phpunit
+   * Behat(https://docs.behat.org/en/latest/): /usr/local/bin/behat
+   * Codeception(https://codeception.com/): /usr/local/bin/codeception
+   * PHPSpec(http://www.phpspec.net/en/stable/): /usr/local/bin/phpspec
+
+
 #### Grade de compatibilidade
 <table>
    <thead>
