@@ -15,7 +15,7 @@ Com esta opção, não é necessário instalar fisicamente o interpretador na m�
 
 #### Cada imagem possui as seguintes ferramentas:
 
-Composer(https://getcomposer.org/): /usr/local/bin/composer
+[Composer](https://getcomposer.org/): /usr/local/bin/composer
 
 Test Frameworks:
    * [PHPUnit](https://phpunit.de/): /usr/local/bin/phpunit
